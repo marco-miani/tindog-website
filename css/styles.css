@@ -1,0 +1,169 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+p {
+    color: #6f6f6f;
+}
+
+/* Headings */
+
+.big-headings {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Navbar section */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #FFFFFF;
+
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #FFFFFF;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 1.5rem;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 1.5rem 1.5rem 1.5rem 3rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 6rem;
+}
+
+.pricing-column {
+    padding: 1rem 1rem;
+}
+
+/* Responsiveness */
+
+@media (max-width: 990px) {
+    .title-image {
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* Footer */
+
+#cta {
+    background-color: #FF4C68;
+    padding: 5% 0 5% 0;
+}
+
+.bottom-text {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+#footer {
+    background-color: #FFFFFF;
+    color: #6f6f6f;
+    padding: 5% 0 5% 0;
+}
+
+.footer-icon {
+    padding: 1rem 0.5rem;
+}
